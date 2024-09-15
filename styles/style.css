@@ -71,12 +71,12 @@ p {
 }
 
 .navigation__item {
-  padding: 0.5rem 0;
+  padding: 0.5rem 0.8rem;
 }
 
 .navigation__link {
   color: var(--grey-dark);
-  font-weight: 600;
+  font-weight: 800;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -97,6 +97,13 @@ p {
 }
 
 /* Buttons */
+button {
+  background-color: var(--orange-dark);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.2rem;
+}
 
 /* INSERT BUTTON STYLES HERE */
 
@@ -124,17 +131,20 @@ p {
 .hero {
   background-image: url("../images/header-bike.jpg");
   background-color: var(--grey-light);
-  padding: 100px;
+  padding: 80px 20px;
+  margin-bottom: 50px;
 }
 
 .hero h1 {
   margin-bottom: 1rem;
   font-size: 2.5rem;
+  color: #fff;
 }
 
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  color: #fff;
 }
 
 /* Headings */
